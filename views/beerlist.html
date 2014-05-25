@@ -1,0 +1,16 @@
+<div class="well">
+    <table class="table">
+        <tr>
+            <th>Beer</th>
+            <th>Name</th>
+            <th>Brewery</th>
+            <th>Style</th>
+        </tr>
+        <tr ng-repeat="beer in beers">
+            <td><img ng-src="{{beer.image}}" height="80px"></img></td>
+            <td>{{beer.name}}</td>
+            <td>{{beer.brewery}}</td>
+            <td>{{beer.style}}</td>
+        </tr>
+    </table>
+</div>

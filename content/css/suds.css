@@ -1,0 +1,37 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+body {
+    background-image: url("/content/images/back.jpg");
+    color: #732501;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-style: none;
+    color: #FFD800 !important;
+}
+
+.navbar a {
+    color: #FFD800 !important;
+}
+
+.well {
+    background-color: #FEFF8A;
+}
+.nav {
+}
+
+.jumbotron {
+    background-color: #FEFF8A;
+}
+
+
+/*
+#BA5C01
+#FF8A00
+#FEFF8A
+#732501
+#FFD800
+*/
